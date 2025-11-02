@@ -26,7 +26,20 @@ const config: Config = {
         },
       },
     },
+    
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["*"]
+    }
+  }
+
+
   },
+  
   plugins: [require('@tailwindcss/forms')],
+
+  
 };
+
 export default config;
