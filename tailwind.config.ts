@@ -27,13 +27,7 @@ const config: Config = {
       },
     },
     
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["*"]
-    }
-  }
-
+ 
 
   },
   
